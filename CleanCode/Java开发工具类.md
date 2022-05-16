@@ -23,8 +23,10 @@ try {
 
 ### Git远程仓库回滚
 
-> 1. 通过IDEA重置到要回滚的分支，已提交的代码会恢复到本地变为待提交
+> 1. 通过IDEA将本地分支重置到要回滚到的记录，已提交的代码会恢复到未提交状态
 >
 > ![image-20220516214045177](https://tva1.sinaimg.cn/large/e6c9d24ely1h2aktdsjs5j20ut0u0112.jpg)
 >
-> 2. 将本地的代码回滚，然后git push -f 强制覆盖远程的分支
+> ![image-20220516222259269](https://tva1.sinaimg.cn/large/e6c9d24ely1h2am0zm654j20nq0gg40g.jpg)
+>
+> 2. 将本地未提交的代码回滚，然后git push -f 强制覆盖远程的分支
